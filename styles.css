@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Montserrat&family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Amaranth', sans-serif;
+    margin: 0px;
+}
+/*defining colors as variables*/
+:root {
+    --primary-color: #f59e0b;
+    --secondary-color: #f59e0b;
+}
+
+/*navigation*/
+nav h1 {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+nav img{
+    width: 15vw;
+}
+/* main div  */
+.main {
+    text-align: center;
+    padding: 1rem 1rem;
+}
+/*input div*/
+
+#txt-input {
+    font-size: 20px;
+    margin: auto;
+    border-radius: 0.5rem;
+    height: 10vh;
+    width: 60vw;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+}
+
+.btn-translate {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    margin: 2rem;
+    font-size: 1rem;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+}
+
+.btn-translate:hover {
+    background-color: var(--secondary-color);
+}
+
+.output-text {
+    padding: 0.5rem 1rem;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.output {    
+    font-size: 20px;
+    overflow: scroll;
+    margin: auto;
+    height: 10vh;
+    width: 60vw;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;    
+    border-radius: 0.5rem;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    font-size: large;
+}
+
+footer p {
+    padding: 0.5rem 1rem;
+}
+
+footer .footer-text {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.footer-image img {
+    width: 15vw;
+}
+
+
+
